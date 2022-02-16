@@ -5,6 +5,9 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
+p{
+    margin: 0;
+}
 
 
  :root{
@@ -29,7 +32,7 @@ body{
   */
 
 
-/* navigation-start */
+/* 1) navigation-start */
 header{
     height: 135px;
     display: flex;
@@ -54,3 +57,59 @@ header .nav-link:hover, header .nav-link.active{
 
 
 /* navigation-end */
+
+/* 2) hero start */
+#hero{
+    background: url('assets/images/cityscape.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+.herotop {
+    background: #e2eaed;
+    width: 350px;
+}
+.herotop i{
+    color: #fcae61;
+    font-size: 25px;
+}
+.container{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    font-size: 30px;
+}
+.icon1{
+    top: 10px;
+    left: 10px;
+    color: #fb86f2;
+    
+}
+.icon2{
+    bottom: 35px;
+    left: 150px;
+    color: #fcae61;
+    
+}
+.icon3{
+    top: 150px;
+    left:220px;
+    color: rgb(86, 184, 151);
+}
+.icon4{
+    bottom:300px;
+    right: 150px;
+    color: rgb(236, 187, 122);
+}
+.icon5{
+    top: 200px;
+    right: 70px;
+    color: rgb(88, 189, 189);
+}
+
+/* hero area end */
+
+.brnd-cont p{
+    
+}
