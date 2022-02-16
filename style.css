@@ -1,22 +1,51 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
 
 
-
-/*
-
- #242f61 deepblue
- #f55767 redish
- #2563ff blue
- #40975f green
-
- Poppins semibold
- Poppins regular
-
- */
+ :root{
+     --main-color: #242f61;
+ }
+ .mybtn{
+     background-color: #2500f9;
+     color: #fff;
+     font-size: 16px;
+     font-weight: 800;
+     padding: 15px 35px;
+ }
+.mybtn:hover{
+    background-color: #fcae61;
+    color: #fff;
+}
+ /* =================================
+    index
+    =================================
+    1) header
+    2) banner
+  */
 
 
 /* navigation-start */
+header{
+
+}
+
+header .navbar-brand{
+    font-size: 30px;
+    font-weight: 800;
+    color:#fcae61;
+}
+header .navbar-brand span{
+    color: var(--main-color);
+}
+header .nav-link{
+    font-size: 16px;
+    color: var(--main-color);
+
+}
 
 /* navigation-end */
