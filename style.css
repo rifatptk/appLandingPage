@@ -4,6 +4,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    
 }
 p{
     margin: 0;
@@ -110,4 +111,6 @@ header .nav-link:hover, header .nav-link.active{
 
 /* hero area end */
 
-
+.smart-jackpot, .container, .features-container{
+    color: #242f61;
+}
