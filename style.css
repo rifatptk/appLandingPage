@@ -1,116 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
-
-body{
+*{
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    
     
 }
-p{
+body a{
+    text-decoration: none;
+    color: #084298;
+    
+}
+body p{
     margin: 0;
+    padding: 0;
 }
 
 
- :root{
-     --main-color: #242f61;
- }
- .mybtn{
-     background-color: #2500f9;
-     color: #fff;
-     font-size: 16px;
-     font-weight: 800;
-     padding: 15px 35px;
- }
-.mybtn:hover{
-    background-color: #fcae61;
-    color: #fff;
+/* color: #084298;
+color: #052c65; */
+
+.text-dblue{
+    color: #052c65;
 }
- /* =================================
-    index
-    =================================
-    1) header
-    2) banner
-  */
-
-
-/* 1) navigation-start */
-header{
-    height: 135px;
+.flex-col{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+section{
+    margin-bottom: 100px;
 }
 
-header .navbar-brand{
-    font-size: 30px;
+/* -----navigation------------------------------- */
+
+
+
+.nav-item{
+    padding: 5px 10px;
+}
+.mybtn{
+    background: #0a58ca;
+    border-radius: 25px;
     font-weight: 800;
-    color:#fcae61;
-}
-header .navbar-brand span{
-    color: var(--main-color);
-}
-header .nav-link{    
-    color: var(--main-color);
-    margin: 0 10px;    
-}
-header .nav-link:hover, header .nav-link.active{
-    color: #fcae61;
 }
 
+/* ----------hero--------------------------------- */
 
-/* navigation-end */
-
-/* 2) hero start */
-#hero{
-    background: url('assets/images/cityscape.png');
+#hero-section{
+    background-image: url(assets/images/cityscape.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    
 }
-.herotop {
-    background: #e2eaed;
+#hero-editors{
+    background: rgb(225, 225, 225);
     width: 350px;
 }
-.herotop i{
-    color: #fcae61;
-    font-size: 25px;
-}
-.container{
-    position: relative;
-}
-.icon{
-    position: absolute;
-    font-size: 30px;
-}
-.icon1{
-    top: 10px;
-    left: 10px;
-    color: #fb86f2;
-    
-}
-.icon2{
-    bottom: 35px;
-    left: 150px;
-    color: #fcae61;
-    
-}
-.icon3{
-    top: 150px;
-    left:220px;
-    color: rgb(86, 184, 151);
-}
-.icon4{
-    bottom:300px;
-    right: 150px;
-    color: rgb(236, 187, 122);
-}
-.icon5{
-    top: 200px;
-    right: 70px;
-    color: rgb(88, 189, 189);
+/* ---------------trusted companies----------------------------------- */
+#trusted-companies img{
+    max-height: 50px;
+    max-width: 120px;
 }
 
-/* hero area end */
+/* ---------------------------------------------------------------- */
+@media (max-width:576px){
+    #smart-search{
+        width: 500px;
+        padding-top: 20px;
+    }
+    #app-features{
+        position: relative;
+    }
+    #awesome{
+        position: absolute;
+        top: -100px;
+        width: 100vw;
+        padding-top: 10px;
+    }
+     #col2{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    } 
+} 
 
-.smart-jackpot, .container, .features-container{
-    color: #242f61;
-}
+/* --------------------------------------------------- */

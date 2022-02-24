@@ -4,197 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App Landing Page</title>
-    
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
-    <!-- fontawesome css -->
-    <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
-    <!-- main css -->
+    <title>App landing Page</title>
     <link rel="stylesheet" href="style.css">
-    
-    
+    <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+    <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
 
 </head>
 <body>
-    
-<!-- navigation start -->
-<header>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">App<span>Lab</span></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainnav" aria-controls="mainnav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mainnav">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid ">
+              <a class="navbar-brand fw-bold fs-1 col text-warning" href="#">App<span class="text-dblue">Lab</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Key Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Testiminial</a>
+                </li>
+                <li class="nav-item me-5">
+                  <a class="nav-link" href="#">FAQ</a>
+                </li>
+                <li class="nav-item mybtn ">
+                  <a class="nav-link text-light " href="#">Try For Free </a>
+                </li>
             
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Key Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Testiminial</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">FAQ</a>
-            </li>   
             
-            
-          </ul>
-          <a href="#" class="btn mybtn rounded rounded-pill ms-4">Try For Free</a>
-        </div>
-      </div>
-    </nav>
-  </div>
-</header>   
-<!-- navigation end -->
-
-<!-- hero area start -->
-<section id="hero">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 d-flex flex-column justify-content-center">
-        <div class="hero-text">
-          <div class="herotop w-60 d-flex align-items-center rounded rounded-pill">
-            <i class="fa-solid fa-circle-check"></i><p class="ps-2">#1 Editiors Choice App of 2020</p>
-
-          </div>
-          
-        </div>
-        <h2 class="pt-4">Best app for your <br>
-          modern lifestyle</h2>
-        <p class="pt-4"></p>Increase productivity with a simple to-do app. app for <br>
-          managing your personal budgets.</p>
-        <div class="hero-buttons pt-4">
-          <a href="#" class="btn mybtn rounded rounded-pill">Try For Free</a>
-          <a href="#" class="btn">Watch demo video</a>
-        </div>
-
-      </div>
-      <div class="col-md-6">
-        <img class="img-fluid w-75" src="assets/images/manage stastics.png" alt="App screen">
-      </div>
+                </ul>
+              </div>
+            </div>
+          </nav> 
     </div>
-    <span class="icon icon1"><i class="fa-solid fa-circle-notch"></i></span>
-    <span class="icon icon2"><i class="fa-solid fa-stop"></i></span>
-    <span class="icon icon3"><i class="fa-solid fa-crop"></i></span>
-    <span class="icon icon4"><i class="fa-solid fa-bolt"></i></span>
-    <span class="icon icon5"><i class="fa-solid fa-caret-right"></i></span>
+
+    <section id="hero-section">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 flex-col ">
+                <div id="hero-editors" class="d-flex align-items-center rounded-pill">
+                    <i class="fs-1 text-warning fa-solid fa-circle-check"></i>
+                    <p class="ms-3">#1 Editors Choice App of 2020</p>
+                </div>
+                <h1 class="fw-bold text-dblue mt-3">Best app for your modern lifestyle</h1>
+                <p class="text-secondary mt-2">Increasing productivity with a sinple to-do-app. App for managing your personal budgets.</p>
+                <br>
+                <div class="d-flex align-items-center mt-4">
+                    <div class=" mybtn ">
+                        <a class="nav-link text-light " href="#">Try For Free </a>
+                        </div>
+                        <a class="ms-5" href="#">Watch demo video</a>
+                </div>
+            </div>
+
+                <div class="col-md-6">
+                <img src="assets/images/manage stastics.png" alt="Manage stastics">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="trusted-companies">
+        <div class="container">
+            <p class="text-center">Trusted by companies like</p>
+            <div class="row justify-content-around mt-5">
+                <img class="col" src="assets/images/brand1.png" alt="">
+                <img class="col" src="assets/images/brand2.png" alt="">
+                <img class="col" src="assets/images/brand3.png" alt="">
+                <img class="col" src="assets/images/brand4.png" alt="">
+                <img class="col" src="assets/images/brand5.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="app-features">
+        <div class="row">
+            <div class="col-md-6">
+             <img id="smart-search" src="assets/images/smart-search.png" alt="Manage stastics">
+            </div>
+
+            <div id="col2" class="col-md-6 ps-5">
+                <div id="awesome" class="pt-5">
+                    <h1 class="text-dblue w-75">Awesome app features</h1>
+                    <p class="pb-5 mb-5 text-secondary w-75">Increase productivity with a simple to-do app. App to manage your personal budgets</p>
+
+                </div>
+                
+
+                <div class="d-flex align-items-center mb-5 w-75">
+                    <img src="assets/icons/fast-performance.png" alt="">
+                    <div class="ps-4">
+                       <h5 class="text-danger pb-1">Fast Performance</h5> 
+                       <p class="text-secondary">Get your blood tests dilivered at home collect a sample from the news your blood test.</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center mb-5 w-75">
+                    <img src="assets/icons/prototyping.png" alt="">
+                    <div class="ps-4">
+                       <h5 class="text-primary pb-1">Prototyping</h5> 
+                       <p class="text-secondary">Get your blood tests dilivered at home collect a sample from the news your blood test.</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center w-75">
+                    <img src="assets/icons/vector.png" alt="">
+                    <div class="ps-4">
+                       <h5 class="text-success pb-1">Vector editing</h5> 
+                       <p class="text-secondary">Get your blood tests dilivered at home collect a sample from the news your blood test.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            
+        
+    </section>
     
 
-  </div>
-</section>
-<!-- hero area end -->
-
-<!-- brands area start -->
-<section class="container">
-  <div class="brnd-cont">
-    <p class="text-center py-5">Trusted by companies like</p>
-    <div class="brands d-flex justify-content-around pb-5">
-      <img src="assets/images/brand1.png" alt="brand" class="brnd">
-      <img src="assets/images/brand2.png" alt="brand" class="brnd">
-      <img src="assets/images/brand3.png" alt="brand" class="brnd">
-      <img src="assets/images/brand4.png" alt="brand" class="brnd">
-      <img src="assets/images/brand5.png" alt="brand" class="brnd">
-    </div>
     
-  </div>
-</section>
-<!-- brands area end -->    
-
-<!-- app feature area start -->
-<div class="features-container d-flex mt-5">
-  <img src="assets/images/smart-search.png"  alt="">
-  <div class="feature-list">
-    <h2 class="pt-5">Awesome apps <br>
-      features</h2>
-    <p>Increase productivity with a simple to-do app. app for <br>
-      managing your personal budgets.</p>
-
-    <div class="feature d-flex pt-5 ">
-      <img src="assets/icons/fast-performance.png" class="pe-4" alt="">
-      <div class="feature-text">
-        <p class="fw-bolder text-danger mb-2">Fast Performance</p>
-        <p>Get your blood tests delivered at <br>
-          home collect a sample from the <br>
-          news your blood tests.</p>
-      </div>
-    </div>
-    <div class="feature d-flex pt-5 ">
-      <img src="assets/icons/prototyping.png" class="pe-4" alt="">
-      <div class="feature-text">
-        <p class="fw-bolder text-primary pb-2">Fast Performance</p>
-        <p>Get your blood tests delivered at <br>
-          home collect a sample from the <br>
-          news your blood tests.</p>
-      </div>
-    </div>
-    <div class="feature d-flex pt-5 ">
-      <img src="assets/icons/vector.png" class="me-4" alt="">
-      <div class="feature-text">
-        <p class="fw-bolder text-success pb-2">Fast Performance</p>
-        <p>Get your blood tests delivered at <br>
-          home collect a sample from the <br>
-          news your blood tests.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- app feature area end -->
-
-<!-- smart jackpot start -->
-<div class="">
-  <div class="container smart-jackpot  d-flex align-items-center justify-content-around">
-    <h2 >Smart jackpots that 
-      you may love this 
-      anytime & anywhere</h2>
-      <p class="border-start ps-4">The rise of mobile devices transforms the way we
-        consume information entirely and the world's most 
-        elevant channels such as Facebook.</p>
-  </div>
-  
-  <div class="container d-flex justify-content-between">
-    <div class="feature pe-5 pt-5 ">
-      <img src="assets/icons/automatic-payout.png" class=" pb-4" alt="">
-      <div class="feature-text">
-        <p class="fw-bolder text-danger mb-2">Automatic Payouts</p>
-        <p>Get your blood tests delivered at <br>
-          home collect a sample from the <br>
-          news your blood tests.</p>
-      </div>
-    </div>
-  
-    <div class="feature pe-5 pt-5 ">
-      <img src="assets/icons/network-effect.png" class="pb-4" alt="">
-      <div class="feature-text">
-        <p class="fw-bolder text-primary mb-2">Automatic Payouts</p>
-        <p>Get your blood tests delivered at <br>
-          home collect a sample from the <br>
-          news your blood tests.</p>
-      </div>
-    </div>
-  
-    <div class="feature pe-5 pt-5 ">
-      <img src="assets/icons/bigger-reward-method.png" class="pb-4" alt="">
-      <div class="feature-text">
-        <p class="fw-bolder text-success mb-2">Automatic Payouts</p>
-        <p>Get your blood tests delivered at <br>
-          home collect a sample from the <br>
-          news your blood tests.</p>  
-      </div>  
-    </div>
-  </div>
-</div>
-<!-- smart jackpot end -->
-
-<!-- bootstrap js -->
-    <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
 </body>
-</html>gi
+</html>
